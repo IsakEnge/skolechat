@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#chat {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#messages {
+  list-style-type: none;
+  padding: 0;
+}
+
+#messages li {
+  margin-bottom: 5px;
+}
+
+#inputMessage {
+  width: 200px;
+  margin-right: 10px;
+}
+
+#sendButton {
+  padding: 5px 10px;
+}
